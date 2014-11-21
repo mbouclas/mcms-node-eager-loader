@@ -128,7 +128,7 @@ var T = new test();
 eager.set(T).with([relationships.carsObj,relationships.boatsObj]).exec(T.showArr,function(err,res){
     for (var a in res){
 
-        console.log('res: ',res[a]);
+        //console.log('res: ',res[a]);
     }
 });
 /*T.with('cars').with('boats').show(function(err,res){
